@@ -8,7 +8,7 @@
             println("There is ${count} distinct names")
             println("The first in the alphabetical order is ${names[0]}")
             println("The last in the alphabetical order is ${last}")
-        //testing
+        //test
     }
   /*  val nums = Array(4) {i -> i*3}
     val dnum = nums.distinct()

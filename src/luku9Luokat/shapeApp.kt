@@ -1,6 +1,6 @@
 package luku9Luokat
 
-class Shape(xPos: Int = 0, yPos: Int = 0) {
+open class Shape(xPos: Int = 0, yPos: Int = 0) {
     var xPos = 0
     var yPos = 0
     fun print() {

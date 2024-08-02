@@ -3,7 +3,7 @@ fun main() {
         println("${i.ordinal} : ${i.name}")
     }
 }
-//Test
+//Testing
 enum class Priority {
     LOW,
     MEDIUM,

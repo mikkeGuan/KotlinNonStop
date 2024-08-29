@@ -1,6 +1,6 @@
 package luku13LoppuTehtavat
 
-open class Employee(id: Int = 1, name: String = " ") {
+open class Employee(val id: Int, val name: String) {
 
 }
 
@@ -9,11 +9,10 @@ fun main() {
     var id = 1
 
     while (true) {
-        println("Anna työntekijän nimi: (0 lopetus):")
+        print("Anna työntekijän nimi: (0 lopetus):")
         var employee = readln().toString();
 
         if (employee == "0") {
-            println(allEmployees)
             break
         }
 
@@ -22,6 +21,6 @@ fun main() {
         id ++
     }
     allEmployees.forEach{
-        print({it}.toString())
+        println("id: ${it.id} Nimi: ${it.name}")
     }
 }
